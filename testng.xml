@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.qa.testcase.Brokenlinks"/>
+      <class name="com.qa.testcase.Modalonentry"/>
+      <class name="com.qa.testcase.Login"/>
+      <class name="com.qa.testcase.Exitintent"/>
+      <class name="com.qa.testcase.Hovercase"/>
+      <class name="com.qa.testcase.Infinitescroll"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
